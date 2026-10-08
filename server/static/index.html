@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Клинический ассистент психиатра</title>
+<style>
+  :root {
+    --paper: #f6f8f8;
+    --surface: #ffffff;
+    --ink: #14262c;
+    --muted: #5d7077;
+    --line: #d9e2e4;
+    --accent: #0b6e75;
+    --accent-ink: #ffffff;
+    --accent-soft: #e2f0f0;
+    --query: #ebf1f2;
+    --warn-bg: #fbf3df;
+    --warn-ink: #7a5200;
+    --err: #a4262c;
+    --err-bg: #fbeaea;
+    --serif: "Source Serif 4", "Charter", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    --sans: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0f1a1e;
+      --surface: #16252a;
+      --ink: #e4eef0;
+      --muted: #94a9af;
+      --line: #274047;
+      --accent: #4fb8bf;
+      --accent-ink: #072a2d;
+      --accent-soft: #19363a;
+      --query: #1b2e34;
+      --warn-bg: #33290f;
+      --warn-ink: #e9c46a;
+      --err: #ff8a8f;
+      --err-bg: #3a1c1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    height: 100dvh;
+  }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---------- шапка ---------- */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    max-width: 860px; margin: 0 auto; padding: 12px 20px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .mark { width: 34px; height: 34px; flex: none; }
+  .title { line-height: 1.25; }
+  .title b { font-size: 16px; font-weight: 650; letter-spacing: .1px; }
+  .title span { display: block; font-size: 12.5px; color: var(--muted); }
+  .spacer { flex: 1; }
+  .ghost {
+    background: none; border: 1px solid var(--line); border-radius: 8px;
+    padding: 6px 12px; font-size: 13px; color: var(--muted);
+  }
+  .ghost:hover { color: var(--ink); border-color: var(--muted); }
+
+  /* ---------- лента ---------- */
+  main { overflow-y: auto; scroll-behavior: auto; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 28px 20px 16px; }
+
+  .welcome h2 {
+    font-family: var(--serif); font-weight: 600; font-size: 28px;
+    line-height: 1.2; margin: 18px 0 10px; letter-spacing: -.2px;
+  }
+  .welcome p { color: var(--muted); max-width: 60ch; line-height: 1.6; margin: 0 0 26px; }
+  .examples { border-top: 1px solid var(--line); }
+  .example {
+    display: block; width: 100%; text-align: left; background: none; border: 0;
+    border-bottom: 1px solid var(--line); padding: 14px 4px;
+    font-size: 14.5px; line-height: 1.5; color: var(--ink);
+  }
+  .example:hover { background: var(--accent-soft); }
+  .example small { display: block; color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .fine { margin-top: 18px; font-size: 13px; color: var(--muted); line-height: 1.55; max-width: 62ch; }
+
+  .ex { margin-bottom: 38px; }
+
+  /* запрос врача */
+  .q {
+    background: var(--query); border-radius: 8px; padding: 12px 16px;
+    font-size: 14.5px; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere;
+  }
+  .q.clamp { max-height: 9.6em; overflow: hidden; position: relative; }
+  .q.clamp::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3em;
+    background: linear-gradient(to bottom, transparent, var(--query));
+  }
+  .toggle {
+    background: none; border: 0; padding: 6px 2px 0; font-size: 13px; color: var(--accent);
+  }
+
+  /* заключение ассистента */
+  .a {
+    margin-top: 18px; padding-left: 20px; border-left: 3px solid var(--accent);
+  }
+  .body {
+    font-family: var(--serif); font-size: 17px; line-height: 1.7;
+    max-width: 68ch; overflow-wrap: anywhere;
+  }
+  .body p { margin: 0 0 .85em; }
+  .body h4 {
+    font-family: var(--sans); font-size: 14.5px; font-weight: 650; color: var(--accent);
+    margin: 1.4em 0 .4em; letter-spacing: .1px;
+  }
+  .body h4:first-child { margin-top: 0; }
+  .body ul, .body ol { margin: 0 0 .9em; padding-left: 1.3em; }
+  .body li { margin-bottom: .3em; }
+  .body code { font-family: var(--mono); font-size: .86em; background: var(--query); padding: 1px 5px; border-radius: 4px; }
+  .body p.note {
+    font-family: var(--sans); font-size: 13.5px; line-height: 1.5; margin-top: 1.3em;
+    background: var(--warn-bg); color: var(--warn-ink); padding: 9px 12px; border-radius: 8px;
+  }
+  .meta { display: flex; gap: 14px; align-items: center; margin-top: 10px; font-size: 12.5px; color: var(--muted); }
+  .meta button { background: none; border: 0; padding: 2px 0; color: var(--muted); font-size: 12.5px; }
+  .meta button:hover { color: var(--accent); }
+
+  /* инструменты */
+  .tools { margin-top: 14px; font-size: 13px; }
+  .tools > summary, .tool > summary { cursor: pointer; color: var(--muted); list-style: none; }
+  .tools > summary::-webkit-details-marker, .tool > summary::-webkit-details-marker { display: none; }
+  .tools > summary::before, .tool > summary::before { content: "▸"; display: inline-block; width: 1.1em; transition: transform .15s; }
+  .tools[open] > summary::before, .tool[open] > summary::before { transform: rotate(90deg); }
+  .tools > summary:hover { color: var(--ink); }
+  .tool { margin: 6px 0 0 1.1em; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+  .tool > summary { padding: 8px 12px; color: var(--ink); display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+  .tool > summary::before { color: var(--muted); }
+  .tool .arg { color: var(--muted); }
+  .tool .st { margin-left: auto; font-size: 12.5px; color: var(--accent); }
+  .tool .st.bad { color: var(--err); }
+  .tool pre {
+    margin: 0; padding: 10px 12px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 12px; line-height: 1.5; color: var(--muted);
+    max-height: 260px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere;
+  }
+
+  /* ожидание, ошибка */
+  .pending { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 14px; flex-wrap: wrap; }
+  .dots { display: inline-flex; gap: 4px; }
+  .dots i { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); opacity: .3; animation: pulse 1.2s infinite; }
+  .dots i:nth-child(2) { animation-delay: .2s; }
+  .dots i:nth-child(3) { animation-delay: .4s; }
+  @keyframes pulse { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+  .hint { flex-basis: 100%; font-size: 12.5px; }
+  .fail { border-left-color: var(--err); }
+  .fail .msg { background: var(--err-bg); color: var(--err); border-radius: 8px; padding: 10px 14px; line-height: 1.5; overflow-wrap: anywhere; }
+  .fail .msg b { display: block; margin-bottom: 2px; }
+  .retry {
+    margin-top: 10px; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 8px; padding: 6px 14px; font-size: 13.5px;
+  }
+  .retry:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ---------- ввод ---------- */
+  footer { background: var(--paper); padding: 0 20px 14px; }
+  .composer {
+    max-width: 860px; margin: 0 auto; background: var(--surface);
+    border: 1px solid var(--line); border-radius: 12px; padding: 10px 10px 8px 14px;
+    box-shadow: 0 1px 2px rgba(10, 40, 45, .06);
+  }
+  .composer:focus-within { border-color: var(--accent); }
+  textarea {
+    width: 100%; border: 0; outline: 0; resize: none; background: transparent; color: var(--ink);
+    font: inherit; line-height: 1.5; min-height: 26px; max-height: 220px; padding: 2px 0;
+  }
+  textarea::placeholder { color: var(--muted); }
+  .row { display: flex; align-items: center; gap: 12px; margin-top: 6px; }
+  .count { font-size: 12px; color: var(--muted); }
+  .count.over { color: var(--err); }
+  .send {
+    margin-left: auto; border: 0; border-radius: 8px; padding: 8px 18px;
+    background: var(--accent); color: var(--accent-ink); font-weight: 600; font-size: 14px;
+  }
+  .send:disabled { opacity: .4; cursor: not-allowed; }
+  .send.stop { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
+  .keys { max-width: 860px; margin: 8px auto 0; font-size: 12px; color: var(--muted); }
+
+  @media (max-width: 560px) {
+    .wrap { padding: 20px 14px 10px; }
+    .bar { padding: 10px 14px; }
+    footer { padding: 0 12px 10px; }
+    .body { font-size: 16.5px; }
+    .a { padding-left: 14px; }
+    .keys { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .dots i { animation: none; opacity: .7; }
+    .tools > summary::before, .tool > summary::before { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+      <rect width="34" height="34" rx="8" fill="var(--accent)"/>
+      <polyline points="5,18 12,18 15,10 19,25 22,15 24,18 29,18" fill="none" stroke="var(--accent-ink)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="title">
+      <b>Клинический ассистент</b>
+      <span>Психиатрия, для врачей. Не заменяет клиническое решение</span>
+    </div>
+    <div class="spacer"></div>
+    <button class="ghost" id="clear" type="button">Очистить историю</button>
+  </div>
+</header>
+
+<main id="scroll">
+  <div class="wrap">
+    <section class="welcome" id="welcome">
+      <h2>Задайте клинический вопрос</h2>
+      <p>Опишите пациента или назовите препарат. Ассистент проверит дозы, взаимодействия и диагностические критерии по МКБ-11, клиническим рекомендациям и базе препаратов.</p>
+      <div class="examples" id="examples">
+        <button class="example" type="button">
+          Мужчина 31 года, рецидивирующая депрессия. На СИОЗС возникают эпизоды «разгона» по 3–6 дней со снижением потребности во сне. Биполярное расстройство II типа или активация от антидепрессанта? Что проверить в первую очередь?
+          <small>Дифференциальная диагностика</small>
+        </button>
+        <button class="example" type="button">
+          Пациентка 24 лет, первый психотический эпизод, каннабис ежедневно в течение двух лет. Как отличить первичный психоз от индуцированного каннабисом и какой срок наблюдения разумен?
+          <small>Первый психотический эпизод</small>
+        </button>
+        <button class="example" type="button">
+          Как титровать ламотриджин при добавлении к вальпроату и как снизить риск сыпи?
+          <small>Дозы и взаимодействия</small>
+        </button>
+        <button class="example" type="button">
+          Рассчитай суммарный эквивалент хлорпромазина для оланзапина 15 мг и рисперидона 4 мг.
+          <small>Расчёт</small>
+        </button>
+      </div>
+      <p class="fine">Каждый вопрос обрабатывается отдельно: ассистент не помнит предыдущие. Если нужен контекст, включайте его в текст запроса. История ниже хранится только в этом браузере.</p>
+    </section>
+    <div id="list" role="log" aria-live="polite"></div>
+  </div>
+</main>
+
+<footer>
+  <form class="composer" id="form" autocomplete="off">
+    <textarea id="input" rows="1" placeholder="Опишите случай или задайте вопрос о препарате…" aria-label="Вопрос врача"></textarea>
+    <div class="row">
+      <span class="count" id="count">0 / 100 000</span>
+      <button class="send" id="send" type="submit" disabled>Отправить</button>
+    </div>
+  </form>
+  <div class="keys">Enter отправляет запрос, Shift+Enter переносит строку.</div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  var MAX = 100000;                      // совпадает с ChatRequest.max_length в server.py
+  var STORE = "psy-qa-history-v2";
+  var LABELS = {
+    drug_info: "Справочник препаратов",
+    search_guidelines: "Клинические рекомендации",
+    search_icd11: "МКБ-11",
+    calculate: "Расчёт"
+  };
+
+  var $ = function (s) { return document.querySelector(s); };
+  var list = $("#list"), scroller = $("#scroll"), welcome = $("#welcome");
+  var form = $("#form"), input = $("#input"), sendBtn = $("#send"), count = $("#count");
+  var busy = false, ctrl = null, tick = null;
+  var exchanges = load();
+
+  /* ---------- утилиты ---------- */
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function clip(s, n) { s = String(s); return s.length > n ? s.slice(0, n) + " …[обрезано]" : s; }
+  function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+  function clock(ts) { return new Date(ts).toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" }); }
+  function secs(ms) { var s = Math.floor(ms / 1000); return s < 60 ? s + " с" : Math.floor(s / 60) + " мин " + (s % 60) + " с"; }
+  function el(tag, cls, html) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (html != null) n.innerHTML = html;
+    return n;
+  }
+  function toBottom() {
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    scroller.scrollTo({ top: scroller.scrollHeight, behavior: reduce ? "auto" : "smooth" });
+  }
+
+  /* ---------- безопасный мини-markdown ---------- */
+  function inline(s) {
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/`([^`]+)`/g, "<code>$1</code>");
+  }
+  var HEAD = /^\s*(?:#{1,4}\s+)?\*\*(.+?)\*\*:?\s*$/;
+  function block(lines) {
+    if (!lines.length) return "";
+    var h = lines[0].match(HEAD);
+    if (h) return "<h4>" + inline(h[1]) + "</h4>" + block(lines.slice(1));
+    if (lines.every(function (l) { return /^\s*[-•*]\s+/.test(l); }))
+      return "<ul>" + lines.map(function (l) { return "<li>" + inline(l.replace(/^\s*[-•*]\s+/, "")) + "</li>"; }).join("") + "</ul>";
+    if (lines.every(function (l) { return /^\s*\d+[.)]\s+/.test(l); }))
+      return "<ol>" + lines.map(function (l) { return "<li>" + inline(l.replace(/^\s*\d+[.)]\s+/, "")) + "</li>"; }).join("") + "</ol>";
+    if (lines.length === 1 && /^Решение принимает лечащий врач/.test(lines[0]))
+      return '<p class="note">' + inline(lines[0]) + "</p>";
+    return "<p>" + lines.map(inline).join("<br>") + "</p>";
+  }
+  function render(text) {
+    return String(text).replace(/\r/g, "").split(/\n{2,}/).map(function (b) {
+      return block(b.split("\n").filter(function (l) { return l.trim(); }));
+    }).join("");
+  }
+
+  /* ---------- инструменты ---------- */
+  function summarize(c) {
+    var r = c.result;
+    if (r && r.error) return { ok: false, text: clip(r.error, 90) };
+    if (r && r.found === false) return { ok: false, text: "не найдено" };
+    if (r && Array.isArray(r.results)) return { ok: true, text: r.results.length ? "фрагментов: " + r.results.length : "ничего не найдено" };
+    if (c.tool === "calculate" && r && "result" in r) return { ok: true, text: "= " + r.result };
+    return { ok: true, text: "данные получены" };
+  }
+  function packTools(calls) {
+    return (calls || []).map(function (c) {
+      var s = summarize(c);
+      var arg = Object.keys(c.arguments || {}).map(function (k) { return c.arguments[k]; }).join(", ");
+      return { tool: c.tool, arg: clip(arg, 70), ok: s.ok, status: s.text, raw: clip(JSON.stringify(c.result, null, 2), 4000) };
+    });
+  }
+  function toolsBlock(tools) {
+    if (!tools || !tools.length) return null;
+    var box = el("details", "tools");
+    box.appendChild(el("summary", "", "Использованные инструменты: " + tools.length));
+    tools.forEach(function (t) {
+      var d = el("details", "tool");
+      d.innerHTML =
+        "<summary><span>" + esc(LABELS[t.tool] || t.tool) + "</span>" +
+        '<span class="arg">' + esc(t.arg) + "</span>" +
+        '<span class="st' + (t.ok ? "" : " bad") + '">' + esc(t.status) + "</span></summary>" +
+        "<pre>" + esc(t.raw) + "</pre>";
+      box.appendChild(d);
+    });
+    return box;
+  }
+
+  /* ---------- построение блока вопрос-ответ ---------- */
+  function build(ex) {
+    var art = el("article", "ex");
+    art.dataset.id = ex.id;
+
+    var q = el("div", "q");
+    q.textContent = ex.q;
+    art.appendChild(q);
+    if (ex.q.length > 500) {
+      q.classList.add("clamp");
+      var tg = el("button", "toggle", "Показать запрос полностью");
+      tg.type = "button";
+      tg.addEventListener("click", function () {
+        var on = q.classList.toggle("clamp");
+        tg.textContent = on ? "Показать запрос полностью" : "Свернуть запрос";
+      });
+      art.appendChild(tg);
+    }
+
+    var a = el("div", "a");
+    if (ex.state === "pending") {
+      a.innerHTML =
+        '<div class="pending"><span class="dots"><i></i><i></i><i></i></span>' +
+        '<span>Анализирую запрос</span><span class="elapsed">' + secs(Date.now() - ex.started) + "</span>" +
+        '<span class="hint">Длинные случаи с обращением к инструментам могут обрабатываться несколько минут.</span></div>';
+    } else if (ex.state === "done") {
+      a.appendChild(el("div", "body", render(ex.a || "(пустой ответ)")));
+      var tb = toolsBlock(ex.tools);
+      if (tb) a.appendChild(tb);
+      var meta = el("div", "meta", "<span>" + clock(ex.t) + "</span>");
+      var cp = el("button", "", "Копировать");
+      cp.type = "button";
+      cp.addEventListener("click", function () { copy(ex.a || "", cp); });
+      meta.appendChild(cp);
+      a.appendChild(meta);
+    } else {
+      a.classList.add("fail");
+      var title = ex.state === "stopped" ? "Запрос остановлен" : "Не удалось получить ответ";
+      var text = ex.state === "stopped"
+        ? "Сервер мог продолжить обработку, но ответ не будет показан."
+        : ex.err;
+      a.appendChild(el("div", "msg", "<b>" + esc(title) + "</b>" + esc(text)));
+      var rt = el("button", "retry", "Повторить запрос");
+      rt.type = "button";
+      rt.addEventListener("click", function () { run(ex); });
+      a.appendChild(rt);
+    }
+    art.appendChild(a);
+    return art;
+  }
+  function update(ex) {
+    var old = list.querySelector('[data-id="' + ex.id + '"]');
+    var n = build(ex);
+    if (old) old.replaceWith(n); else list.appendChild(n);
+  }
+  function renderAll() {
+    list.innerHTML = "";
+    exchanges.forEach(function (ex) { list.appendChild(build(ex)); });
+    welcome.hidden = exchanges.length > 0;
+  }
+
+  /* ---------- сеть ---------- */
+  function detailOf(data, status) {
+    if (data && typeof data.detail === "string") return data.detail;
+    if (data && Array.isArray(data.detail))
+      return data.detail.map(function (d) { return d.msg || JSON.stringify(d); }).join("; ");
+    return "Сервер вернул код " + status + ".";
+  }
+  function run(ex) {
+    busy = true; setBusy(true);
+    ex.state = "pending"; ex.started = Date.now();
+    update(ex); toBottom();
+    ctrl = new AbortController();
+    clearInterval(tick);
+    tick = setInterval(function () {
+      var t = list.querySelector('[data-id="' + ex.id + '"] .elapsed');
+      if (t) t.textContent = secs(Date.now() - ex.started);
+    }, 1000);
+
+    fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: ex.q }),
+      signal: ctrl.signal
+    }).then(function (r) {
+      return r.json().catch(function () { return null; }).then(function (data) {
+        if (!r.ok) throw new Error(detailOf(data, r.status));
+        ex.a = data.reply || "";
+        ex.tools = packTools(data.tool_calls_made);
+        ex.state = "done"; ex.t = Date.now();
+      });
+    }).catch(function (err) {
+      if (err.name === "AbortError") { ex.state = "stopped"; return; }
+      ex.state = "error";
+      ex.err = err instanceof TypeError
+        ? "Нет связи с сервером. Проверьте, что server.py запущен, и повторите запрос."
+        : err.message;
+    }).then(function () {
+      clearInterval(tick); busy = false; ctrl = null;
+      setBusy(false); save(); update(ex); toBottom(); input.focus();
+    });
+  }
+
+  /* ---------- ввод ---------- */
+  function setBusy(on) {
+    sendBtn.classList.toggle("stop", on);
+    sendBtn.type = on ? "button" : "submit";
+    sendBtn.textContent = on ? "Остановить" : "Отправить";
+    refresh();
+  }
+  function refresh() {
+    var n = input.value.length;
+    count.textContent = n.toLocaleString("ru-RU") + " / " + MAX.toLocaleString("ru-RU");
+    count.classList.toggle("over", n > MAX);
+    sendBtn.disabled = busy ? false : (!input.value.trim() || n > MAX);
+  }
+  function resize() {
+    input.style.height = "auto";
+    input.style.height = Math.min(input.scrollHeight, 220) + "px";
+    refresh();
+  }
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var text = input.value.trim();
+    if (busy || !text || text.length > MAX) return;
+    var ex = { id: uid(), q: text, state: "pending", started: Date.now(), t: Date.now() };
+    exchanges.push(ex);
+    input.value = ""; resize();
+    welcome.hidden = true;
+    run(ex);
+  });
+  sendBtn.addEventListener("click", function () { if (busy && ctrl) ctrl.abort(); });
+  input.addEventListener("input", resize);
+  input.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && !e.shiftKey && !e.isComposing) {
+      e.preventDefault();
+      if (!busy) form.requestSubmit();
+    }
+  });
+  $("#examples").addEventListener("click", function (e) {
+    var b = e.target.closest(".example");
+    if (!b) return;
+    var s = b.querySelector("small");
+    input.value = b.firstChild.textContent.trim();
+    resize(); input.focus();
+  });
+  $("#clear").addEventListener("click", function () {
+    if (busy || !exchanges.length) return;
+    if (!confirm("Удалить всю историю этого браузера?")) return;
+    exchanges = []; save(); renderAll();
+  });
+
+  /* ---------- хранилище и копирование ---------- */
+  function save() {
+    try {
+      var done = exchanges.filter(function (e) { return e.state === "done"; });
+      localStorage.setItem(STORE, JSON.stringify(done.slice(-30)));
+    } catch (e) { /* хранилище недоступно или заполнено: не критично */ }
+  }
+  function load() {
+    try { return JSON.parse(localStorage.getItem(STORE) || "[]"); } catch (e) { return []; }
+  }
+  function copy(text, btn) {
+    function ok() { btn.textContent = "Скопировано"; setTimeout(function () { btn.textContent = "Копировать"; }, 1600); }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(ok, fallback);
+    } else { fallback(); }
+    function fallback() {
+      var t = document.createElement("textarea");
+      t.value = text; document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); ok(); } catch (e) {}
+      t.remove();
+    }
+  }
+
+  renderAll(); resize();
+  if (exchanges.length) scroller.scrollTop = scroller.scrollHeight;
+  input.focus();
+})();
+</script>
+</body>
+</html>

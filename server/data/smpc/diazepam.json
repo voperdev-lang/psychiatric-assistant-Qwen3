@@ -1,0 +1,21 @@
+{
+ "drug": "diazepam",
+ "class": "benzodiazepine",
+ "indications": [
+  "short-term anxiety",
+  "alcohol withdrawal (chlordiazepoxide preferred but diazepam also used)",
+  "status epilepticus",
+  "muscle spasm"
+ ],
+ "dosing": {
+  "anxiety": "2 mg three times daily (5 mg tds in severe cases); elderly 2 mg twice daily",
+  "alcohol_withdrawal": "10-20 mg initially, then 10 mg 4-6 hourly prn, taper over 5-7 days",
+  "source": [
+   "Maudsley13",
+   "NICE_CG185"
+  ]
+ },
+ "withdrawal": "reduce by ~10% every 1-2 weeks initially, slower (5% or less) as dose gets low; total taper months in long-term users; switch to diazepam from shorter-acting benzos first",
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

@@ -1,0 +1,24 @@
+{
+ "drug": "melatonin_prolonged_release",
+ "class": "hypnotic_chronobiotic",
+ "indications": [
+  "primary insomnia in adults >=55 years (licensed formulation 2 mg prolonged-release, e.g. Circadin)",
+  "sleep-onset insomnia in children/adolescents with neurodevelopmental disorders (unlicensed in most, licensed in some settings)",
+  "circadian rhythm sleep-wake disorders"
+ ],
+ "dosing": {
+  "adult_55plus_insomnia": "2 mg prolonged-release, 1-2 hours before bed, after food, for up to 13 weeks; continue longer if response good",
+  "children": "1-2 mg (up to 3 mg in some protocols) 30-60 min before bedtime",
+  "source": [
+   "Maudsley13",
+   "NICE_circadin_ES"
+  ]
+ },
+ "adverse_effects": [
+  "headache",
+  "nausea",
+  "drowsiness (mild)"
+ ],
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

@@ -1,0 +1,28 @@
+{
+ "drug": "pregabalin",
+ "class": "anxiolytic_gabapentinoid",
+ "indications": [
+  "generalized anxiety disorder (licensed in Europe)",
+  "adjunct in bipolar maintenance (less evidence)",
+  "neuropathic pain, fibromyalgia"
+ ],
+ "dosing": {
+  "GAD_start": "150 mg/day (75 mg twice daily)",
+  "GAD_effective_range": "150-600 mg/day; typical 300 mg/day; trial showed 400-600 mg/day most effective",
+  "elderly_renal": "reduce dose with CrCl <60 mL/min",
+  "source": [
+   "BAP_anxiety2014",
+   "Maudsley13"
+  ]
+ },
+ "adverse_effects": [
+  "dizziness",
+  "somnolence",
+  "weight gain",
+  "peripheral edema",
+  "blurred vision"
+ ],
+ "withdrawal": "taper gradually over at least 1 week to avoid withdrawal (insomnia, headache, nausea, diarrhea, sweating)",
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

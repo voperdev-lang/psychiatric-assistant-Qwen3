@@ -1,0 +1,29 @@
+{
+ "drug": "lamotrigine",
+ "class": "mood_stabilizer_anticonvulsant",
+ "indications": [
+  "bipolar depression treatment (first-line)",
+  "bipolar depression maintenance/prevention of depressive episodes (first-line)",
+  "not effective for acute mania"
+ ],
+ "adverse_effects": {
+  "SJS": {
+   "note": "Risk of serious rash (SJS/TEN) ~0.8-1 in 1000 in adults; risk reduced by slow titration; risk increased with valproate co-prescription, rapid escalation, or exceeding recommended titration",
+   "source": [
+    "Maudsley13",
+    "CANMAT2018"
+   ]
+  },
+  "benign_rash": "about 10% incidence of any rash",
+  "management": "stop immediately if any sign of hypersensitivity syndrome or mucosal involvement; urgent medical assessment"
+ },
+ "monitoring": {
+  "note": "No routine blood monitoring required",
+  "source": [
+   "Maudsley13",
+   "NICE_CG185"
+  ]
+ },
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

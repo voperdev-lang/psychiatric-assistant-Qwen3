@@ -1,0 +1,30 @@
+{
+ "drug": "buspirone",
+ "class": "anxiolytic_5HT1A_partial_agonist",
+ "indications": [
+  "generalized anxiety disorder (short-term and medium-term)",
+  "augmentation of antidepressants in GAD/failed SSRIs",
+  "no efficacy in acute anxiety/panic (onset 2-4 weeks)"
+ ],
+ "dosing": {
+  "start": "5 mg two-three times daily",
+  "titrate": "increase by 5 mg/day every 2-3 days as tolerated",
+  "therapeutic_range": "20-30 mg/day (max 45-60 mg/day in divided doses)",
+  "source": [
+   "Maudsley13",
+   "BAP_anxiety2014"
+  ]
+ },
+ "adverse_effects": [
+  "dizziness",
+  "nausea",
+  "headache",
+  "nervousness/restlessness"
+ ],
+ "cautions": [
+  "increases prolactin slightly",
+  "mild MAOI interaction caution"
+ ],
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

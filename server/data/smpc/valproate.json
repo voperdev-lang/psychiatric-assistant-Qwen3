@@ -1,0 +1,77 @@
+{
+ "drug": "valproate_semisodium_divalproex",
+ "class": "mood_stabilizer_anticonvulsant",
+ "indications": [
+  "acute mania/mixed episodes (first-line)",
+  "bipolar maintenance (second-line)",
+  "adjunct in rapid cycling"
+ ],
+ "dosing": {
+  "mania": "start 750 mg/day (or 20-30 mg/kg/day), titrate rapidly to response; can be loaded (20 mg/kg/day oral loading for acute mania in some protocols)",
+  "maintenance": "start 500-750 mg/day, titrate to 1000-2000 mg/day",
+  "source": [
+   "CANMAT2018",
+   "NICE_CG185",
+   "Maudsley13"
+  ]
+ },
+ "target_dose": {
+  "range": "1000-2500 mg/day (typical target 1500-2000 mg/day or 20-25 mg/kg/day)",
+  "source": [
+   "CANMAT2018",
+   "Maudsley13"
+  ]
+ },
+ "adverse_effects": {
+  "teratogenicity": {
+   "note": "Malformations 10-11% overall, neural tube defects 1-2%, plus increased risk of neurodevelopmental impairment (lower IQ) and autism; NICE: do not start in women of childbearing potential unless pregnancy prevention programme in place and other options inadequate",
+   "source": [
+    "NICE_CG185",
+    "CANMAT2018",
+    "Maudsley13"
+   ]
+  },
+  "hyperammonemia": {
+   "note": "Can occur with normal LFTs; causes lethargy, confusion, vomiting, increased seizure frequency; check ammonia if encephalopathic; risk increased with UCD and carnitine deficiency",
+   "source": [
+    "Maudsley13"
+   ]
+  },
+  "thrombocytopenia": {
+   "note": "Dose-related; platelet count should be monitored especially at doses >45 mg/kg/day; bruising/bleeding warrants count",
+   "source": [
+    "Maudsley13"
+   ]
+  },
+  "PCOS": {
+   "note": "Increased risk of menstrual irregularities, hyperandrogenism, polycystic ovaries in women with epilepsy on valproate (evidence strongest in epilepsy)",
+   "source": [
+    "Maudsley13"
+   ]
+  },
+  "other": [
+   "weight gain",
+   "tremor",
+   "sedation",
+   "alopecia",
+   "LFT elevation",
+   "pancreatitis (rare)"
+  ]
+ },
+ "monitoring": {
+  "baseline": [
+   "LFTs",
+   "FBC (platelets)",
+   "weight",
+   "pregnancy test"
+  ],
+  "schedule": "LFTs and FBC at 6 months, then every 12 months; weight at 3, 6, 12 months then annually; plasma level if poor response or toxicity suspected",
+  "pregnancy_prevention_programme": "annual specialist review; pregnancy test before starting and during; contraception counseling; patient card/acknowledgement form (MHRA/EMA measures)",
+  "source": [
+   "NICE_CG185",
+   "Maudsley13"
+  ]
+ },
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

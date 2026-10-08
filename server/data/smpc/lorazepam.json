@@ -1,0 +1,21 @@
+{
+ "drug": "lorazepam",
+ "class": "benzodiazepine",
+ "indications": [
+  "short-term management of anxiety/agitation",
+  "adjunct in acute mania",
+  "alcohol withdrawal",
+  "catatonia"
+ ],
+ "dosing": {
+  "anxiety": "1-2 mg/day in divided doses (1 mg twice daily typical); elderly 0.5-1 mg/day",
+  "agitation/mania_adjuvant": "1-2 mg oral/IM acutely (prn)",
+  "source": [
+   "Maudsley13",
+   "BAP_anxiety2014"
+  ]
+ },
+ "withdrawal": "taper gradually: reduce by 25% every 1-2 weeks (or slower in long-term users 10-25% every 2-4 weeks); switch to equivalent diazepam for smoother taper; total taper can take 6-12 weeks or longer in long-term use",
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

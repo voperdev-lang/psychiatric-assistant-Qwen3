@@ -1,0 +1,1222 @@
+VA/DoD Clinical Practice Guidelines 
+VA/DoD Clinical Practice Guideline for the 
+Management of Major 
+Depressive Disorder 
+P
+rovider Summary 
+Version 4.0 | 2022
+
+
+
+
+VA/DoD CLINICAL PRACTICE GUIDELINE FOR 
+THE MANAGEMENT OF MAJOR DEPRESSIVE 
+DISORDER
+Department of Veterans Affairs
+Department of Defense
+Provider Summary
+QUALIFYING STATEMENTS
+The Department of Veterans Affairs and the Department of Defense guidelines are based upon the best 
+information available at the time of publication. They are designed to provide information and assist 
+decision making. They are not intended to define a standard of care and should not be construed as one. 
+Neither should they be interpreted as prescribing an exclusive course of management. 
+This Clinical Practice Guideline is based on a systematic review of both clinical and epidemiological 
+evidence. Developed by a panel of multidisciplinary experts, it provides a clear explanation of the logical 
+relationships between various care options and health outcomes while rating both the quality of the 
+evidence and the strength of the recommendation. 
+Variations in practice will inevitably and appropriately occur when clinicians take into account the needs 
+of individual patients, available resources, and limitations unique to an institution or type of practice. 
+Every healthcare professional making use of these guidelines is responsible for evaluating the 
+appropriateness of applying them in the setting of any particular clinical situation with a patient-
+centered approach.
+These guidelines are not intended to represent Department of Veterans Affairs or TRICARE policy. 
+Further, inclusion of recommendations for specific testing and/or therapeutic interventions within these 
+guidelines does not guarantee coverage of civilian sector care. Additional information on current 
+TRICARE benefits may be found at www.tricare.mil by contacting your regional TRICARE Managed Care 
+Support Contractor. 
+Version 4.0 – 2022
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+Table of Contents 
+Introduction ........................................................................................................................................ 1
+Recommendations ............................................................................................................................... 2
+Algorithm ............................................................................................................................................ 6
+Module A: Initial Assessment and Treatment ........................................................................................ 7
+Module B: Advanced Care Management ............................................................................................. 10
+Scope of the CPG................................................................................................................................ 11
+Highlighted Features of this Guideline ............................................................................................... 12
+Methods ............................................................................................................................................ 12
+Guideline Work Group ....................................................................................................................... 14
+Patient-centered Care ........................................................................................................................ 15
+Shared Decision Making ..................................................................................................................... 16
+Quick Guide to the Patient Health Questionnaire in Clinical Practice .................................................. 16
+A. Purpose .......................................................................................................................................... 16
+B. Scoring the PHQ-9 (16) .................................................................................................................. 17
+a. PHQ-9 Scoring Instructions ...................................................................................................... 17
+b. Using the PHQ-9 as a Measure of Severity .............................................................................. 17
+c. Using the PHQ-9 as a Presumptive Diagnostic Tool ................................................................ 18
+d. Interpreting the PHQ-9 to Make a Provisional Diagnosis ........................................................ 18
+C. Using the PHQ-9 in Measurement-Based Care .............................................................................. 18
+a. Collect ...................................................................................................................................... 18
+b. Share ........................................................................................................................................ 19
+c. Act ............................................................................................................................................ 19
+D. Example of Using the PHQ-9 in Clinical Practice ............................................................................ 19
+E. Additional Clinical Considerations ................................................................................................. 20
+Definitions ......................................................................................................................................... 21
+A. Major Depressive Disorder ............................................................................................................ 21
+a. Onset Response to Treatment ................................................................................................. 22
+b. Remission ................................................................................................................................. 22
+c. Recovery .................................................................................................................................. 22
+d. Partial Response ...................................................................................................................... 22
+e. Recurrence ............................................................................................................................... 22
+B. Treatments ..................................................................................................................................... 23
+References ......................................................................................................................................... 25
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 1 of 26 
+Introduction
+The Department of Veterans Affairs (VA) and Department of Defense (DoD) Evidence-Based Practice 
+Work Group (EBPWG) was established and first chartered in 2004, with a mission to advise the Health 
+Executive Committee (HEC) “…  on the use of clinical and epidemiological evidence to improve the health 
+of the population …” acr oss the Veterans Health Administration (VHA) and Military Health System 
+(MHS), by facilitating the development of clinical practice guidelines (CPGs) for the VA and DoD 
+populations.(1) Development and update of VA/DoD CPGs is funded by VA Evidence Based Practice, 
+Office of Quality and Patient Safety. The system-wide goal of evidence-based CPGs is to improve patient 
+health and well-being. 
+In 2016, the VA and DoD published a CPG for the Management of Major Depressive Disorder (2016 
+VA/DoD MDD CPG), which was based on evidence reviewed through May 2015. Since the release of that 
+CPG, a growing body of research has expanded the evidence base and understanding of major 
+depressive disorder (MDD). Consequently, the VA/DoD EBPWG initiated the update of the 2016 VA/DoD 
+MDD CPG in 2020. This updated CPG’s use of GRADE reflects a more rigorous application of the 
+methodology than previous iterations. Consequently, the strength of some recommendations may have 
+been modified due to the confidence in the quality of the supporting evidence (see Methods).
+This CPG provides an evidence-based framework for evaluating and managing care for adults (≥18 years) 
+who have a Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (DSM-5) or International 
+Classification of Diseases (ICD-9 or 10) diagnosis of MDD, including those with mild, moderate, and 
+severe MDD, as well as those with chronic major depression diagnosed per DSM-IV criteria and those 
+with persistent depressive disorder/chronic major depression per DSM-5 criteria. It should be noted, 
+however, that changes in DSM diagnostic criteria for depressive disorders have affected the 
+classification of participants in the research literature. Of note, participants diagnosed with chronic MDD 
+under DSM-IV could be diagnosed with persistent depressive disorder under DSM-5. Thus, studies of 
+MDD that included patients with chronic MDD (using DSM-IV criteria) could have relevance for 
+understanding persistent depressive disorder. 
+Successful implementation of this CPG will:
+· Assess the patient’s condition and collaborate with the patient, family, and caregivers to 
+determine optimal management of patient care
+· Emphasize the use of patient-centered care and shared decision making
+· Minimize preventable complications and morbidity
+· Optimize individual health outcomes and quality of life (QoL)
+The full VA/DoD MDD CPG, as well as additional toolkit materials including a pocket card and patient 
+summary, can be found at: https://www.healthquality.va.gov/. 
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 2 of 26 
+Recommendations
+The following evidence-based clinical practice recommendations were made using a systematic 
+approach considering four domains as per the Grading of Recommendations Assessment, Development 
+and Evaluation (GRADE) approach (see Methods). These domains include: confidence in the quality of 
+the evidence, balance of desirable and undesirable outcomes (i.e., benefits and harms), patient values 
+and preferences, and other implications (e.g., resource use, equity, acceptability). 
+Some of the recommendations use qualifier terms to denote subtypes of MDD. Specifically, the 
+distinction between mild, moderate, and severe depression and mild, moderate, and severe MDD is 
+clinically common yet sometimes difficult to quantify. The DSM-5 does not define MDD severity levels, 
+but the Patient Health Questionnaire-9 (PHQ-9) defines depression severity levels as a function of the 
+total score out of 27, largely influenced by the frequency of symptoms. A score of 5 – 9 defines mild 
+depression, 10 – 14 defines moderate depression, 15 – 19 defines moderately severe depression, and 
+greater than 20 defines severe depression. In contrast, 10 – 14 defines mild MDD, 15 – 19 defines 
+moderate MDD, and >20 defines severe MDD.(2)
+Hasin et al. (2018) defined MDD severity slightly differently and emphasized the number of 
+symptoms.(3) Mild MDD was defined as having five of the cardinal symptoms, moderate MDD had 6 – 7 
+of the cardinal symptoms, and severe MDD had 8 – 9 cardinal symptoms. Regarding chronic depression, 
+also termed persistent depressive disorder (or dysthymia) in DSM-5, symptoms must be present for 
+most days over two years. Typically, symptoms do not remit for greater than two months at a time. The 
+Definitions section also describes depression subsets in detail.
+Table 1. Recommendations
+Topic # Recommendation Strengtha Categoryb
+Screening
+1. We suggest that all patients not currently receiving treatment for 
+depression be screened for depression. Weak for Not reviewed, 
+Amended
+Monitoring 
+Outcomes
+2.
+For patients with MDD, we suggest using a quantitative measure 
+of depression severity in the initial treatment planning and to 
+monitor treatment progress at regular intervals to guide shared 
+treatment decision making.
+Weak for Reviewed, 
+New-replaced
+Treatment Setting
+3.
+For patients with MDD who are being treated in the primary care 
+setting, we recommend the use of collaborative/integrated care 
+models.
+Strong for Reviewed, 
+Amended
+4.
+For patients with MDD, there is insufficient evidence to 
+recommend for or against the use of a team-based model in 
+specialty mental health care settings.
+Neither for 
+nor against
+Reviewed,
+New-added
+5.
+For patients with MDD, there is insufficient evidence to conclude 
+that interventions delivered by clinicians using telehealth are 
+either superior or inferior to in-person treatment.
+Neither for 
+nor against
+Reviewed,
+New-added
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 3 of 26 
+Topic # Recommendation Strengtha Categoryb
+Treatment of Uncomplicated MDD
+6.
+We recommend that MDD be treated with either psychotherapy 
+or pharmacotherapy as monotherapy, based on patient 
+preference. Factors including treatment response, severity, and 
+chronicity may lead to other treatment strategies such as 
+augmentation, combination treatment, switching of treatments, 
+or use of non-first line treatments (see Recommendations 17, 18, 
+and 20). 
+Strong for Reviewed, 
+New-replaced
+7.
+When choosing psychotherapy to treat MDD, we suggest offering 
+one of the following interventions (not rank ordered):
+· Acceptance and commitment therapy
+· Behavioral therapy/behavioral activation
+· Cognitive behavioral therapy
+· Interpersonal therapy
+· Mindfulness-based cognitive therapy
+· Problem-solving therapy
+· Short-term psychodynamic psychotherapy
+Weak for Reviewed, 
+New-replaced
+8.
+For patients who select psychotherapy as a treatment option, we 
+suggest offering individual or group format based on patient 
+preference.
+Weak for Reviewed, 
+Not changed
+9. There is insufficient evidence to recommend for or against 
+combining components from different psychotherapy approaches.
+Neither for 
+nor against
+Reviewed, 
+New-added
+10.
+For patients with mild to moderate MDD, we suggest offering 
+clinician-guided computer/internet-based cognitive behavioral 
+therapy either as an adjunct to pharmacotherapy or as a first-line 
+treatment, based on patient preference.
+Weak for Reviewed, 
+New-replaced
+11.
+When choosing an initial pharmacotherapy, or for patients who 
+have previously responded well to pharmacotherapy, we suggest 
+offering one of the following (not rank ordered): 
+· Bupropion
+· Mirtazapine
+· A serotonin-norepinephrine reuptake inhibitor 
+· Trazodone, vilazodone, or vortioxetine
+· A selective serotonin reuptake inhibitor 
+Weak for Reviewed, 
+New-replaced
+12.
+When choosing an initial pharmacotherapy, we suggest against 
+using:
+· Esketamine
+· Ketamine
+· Monoamine oxidase inhibitors
+· Nefazodone
+· Tricyclic antidepressants
+Weak 
+against
+Reviewed, 
+New-added
+13.
+There is insufficient evidence to recommend for or against 
+pharmacogenetic testing to help guide the selection of 
+antidepressants.
+Neither for 
+nor against
+Reviewed, 
+New-added
+14.
+For patients with mild to moderate MDD who decline 
+pharmacotherapy and who decline or cannot access first-line 
+evidence-based psychotherapies (either in-person or virtually), we 
+suggest considering non-directive supportive therapy.
+Weak for Not reviewed, 
+Amended
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 4 of 26 
+Topic # Recommendation Strengtha Categoryb
+Treatment of MDD that is Severe or has a Partial or Limited Response to Initial Treatment
+15.
+We suggest offering a combination of pharmacotherapy and 
+evidence-based psychotherapy for the treatment of patients with 
+MDD characterized as:
+· Severe (e.g., PHQ-9 >20)
+· Persistent major depressive disorder (duration greater than 
+two years) 
+· Recurrent (with two or more episodes)
+Weak for Not reviewed, 
+Amended
+16.
+For patients with MDD who have demonstrated partial or no 
+response to an adequate trial of initial pharmacotherapy, we 
+suggest (not rank ordered): 
+· Switching to another antidepressant (including TCAs, MAOIs, or 
+those in Recommendation 12)
+· Switching to psychotherapy
+· Augmenting with a psychotherapy 
+· Augmenting with a second-generation antipsychotic 
+Weak for Reviewed, 
+Amended
+17.
+For patients who have demonstrated partial or no response to 
+two or more adequate pharmacologic treatment trials, we suggest 
+offering repetitive transcranial magnetic stimulation for 
+treatment.
+Weak for Reviewed, 
+Amended
+18. There is insufficient evidence to recommend for or against theta-
+burst stimulation for the treatment of MDD.
+Neither for 
+nor against
+Reviewed, 
+New-added
+19.
+For patients with MDD who have not responded to several 
+adequate pharmacologic trials, we suggest ketamine or 
+esketamine as an option for augmentation.
+Weak for Reviewed, 
+New-replaced
+20.
+We recommend offering electroconvulsive therapy (ECT) with or 
+without psychotherapy in patients with severe MDD and any of 
+the following conditions:
+· Catatonia
+· Psychotic depression
+· Severe suicidality
+· A history of a good response to ECT
+· Need for rapid, definitive treatment response on either medical 
+or psychiatric grounds
+· The risks associated with other treatments are greater than the 
+risks of ECT for this specific patient (i.e., co-occurring medical 
+conditions make ECT the safest MDD treatment alternative)
+· A history of a poor response or intolerable side effects to 
+multiple antidepressants
+Strong for Reviewed, 
+Not changed
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 5 of 26 
+Topic # Recommendation Strengtha Categoryb
+Relapse Prevention/Continuation Phase 
+(All Severities and Complexities)
+21.
+For patients with MDD who achieve remission with 
+antidepressant medication, we recommend continuation of 
+antidepressants at the therapeutic dose for at least six months to 
+decrease risk of relapse.
+Strong for Not reviewed, 
+Not changed
+22.
+For patients with MDD at high risk for relapse or recurrence (e.g., 
+two or more prior episodes, unstable remission status), we 
+suggest offering a course of cognitive behavioral therapy, 
+interpersonal therapy, or mindfulness-based cognitive therapy 
+during the continuation phase of treatment (i.e., after remission is 
+achieved) to reduce the risk of subsequent relapse/recurrence. 
+The evidence does not support recommending one of these three 
+evidence-based psychotherapies over another.
+Weak for Not reviewed, 
+Amended
+Recommendations for  
+Specific Populations
+23.
+For individuals with mild to moderate MDD who are breastfeeding 
+or pregnant, we recommend offering an evidence-based 
+psychotherapy as a first-line treatment (see Recommendation 7). 
+In patients with a history of MDD prior to pregnancy who 
+responded to antidepressant medications, and are currently 
+stable on pharmacotherapy, weigh risk/benefit balance to both 
+mother and fetus in treatment decisions.
+Strong for Not reviewed, 
+Amended
+24.
+For older adults (≥65 years) with mild to moderate MDD, we 
+suggest offering a first-line psychotherapy (see Recommendation 
+7). Patient preference and the additional safety risks of 
+pharmacotherapy should be considered when making this 
+decision.
+Weak for Not reviewed, 
+Amended
+25.
+For patients with mild to moderate MDD and significant 
+relationship distress, we suggest offering couples-focused 
+therapy.
+Weak for Not reviewed, 
+Amended
+26.
+For patients with mild to moderate MDD with or without a 
+seasonal pattern (formerly seasonal affective disorder), we 
+suggest offering light therapy.
+Weak for Reviewed, 
+New-replaced
+Self-help, Complementary, and  
+Alternative Treatments
+27. For patients with MDD, we suggest exercise (e.g., yoga, tai chi, qi 
+gong, resistance, aerobics) as an adjunct. Weak for Reviewed, 
+New-replaced
+28.
+For patients with MDD, we suggest CBT-based bibliotherapy as an 
+adjunct to pharmacotherapy or psychotherapy, or as an 
+alternative when patients are unwilling or unable to engage in 
+other treatments.
+Weak for Reviewed, 
+Amended
+29.
+For patients with mild MDD who are not pregnant or 
+breastfeeding and who prefer herbal treatments to first-line 
+psychotherapy or pharmacotherapy, we suggest standardized 
+extract of St. John’s wort as monotherapy.
+Weak for Not reviewed, 
+Amended
+30. For patients with MDD, there is insufficient evidence to 
+recommend for or against acupuncture as an adjunct.
+Neither for 
+nor against
+Reviewed,
+New-replaced
+31. For patients with MDD, there is insufficient evidence to 
+recommend for or against the addition of biofeedback.
+Neither for 
+nor against
+Reviewed, 
+New-added
+32. For patients with MDD, there is insufficient evidence for or against 
+the use of meditation as an adjunct.
+Neither for 
+nor against
+Reviewed, 
+New-added
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 6 of 26 
+Topic # Recommendation Strengtha Categoryb
+Other Treatments with a 
+Recommendation Against Use 33. For patients with MDD, we suggest against using vagus nerve 
+stimulation outside of a research setting.
+Weak 
+against
+Reviewed, 
+Amended
+34. For patients with MDD, we recommend against using deep brain 
+stimulation outside of a research setting.
+Strong 
+against
+Reviewed, 
+Not changed
+35.
+Given the limited information on the safety and efficacy of 
+psilocybin, MDMA, cannabis, and other unapproved 
+pharmacologic treatments, we recommend against using these 
+agents for MDD outside of a research setting.
+Strong 
+against
+Reviewed, 
+New-added
+36. We suggest against using omega-3 fatty acids or vitamin D for 
+treatment of MDD.
+Weak 
+against
+Not reviewed, 
+Not changed
+a  For additional information, see Determining Recommendation Strength and Direction in the full VA/DoD MDD CPG.
+b  For additional information, see Recommendation Categorization and Appendix D in the full VA/DoD MDD CPG.
+Algorithm
+This CPG’s algorithm is designed to facilitate understanding of the clinical pathway and decision making 
+process used in managing patients with MDD. This algorithm format represents a simplified flow of the 
+management of patients with MDD and helps foster efficient decision making by providers. It includes: 
+· An ordered sequence of steps of care 
+· Decisions to be considered 
+· Recommended decision criteria
+· Actions to be taken
+The algorithm is a step-by-step decision tree. Standardized symbols are used to display each step, and 
+arrows connect the numbered boxes indicating the order in which the steps should be followed.(4) 
+Sidebars provide more detailed information to assist in defining and interpreting elements in the boxes.
+Shape Description
+Rounded rectangles represent a clinical state or condition
+Hexagons represent a decision point in the process of care, formulated as a question 
+that can be answered “Yes” or “No”
+Rectangles represent an action in the process of care
+Ovals represent a link to another section within the algorithm
+For alternative text descriptions of the algorithm, please refer to Appendix G in the full VA/DoD 
+MDD CPG.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 7 of 26 
+Module A: Initial Assessment and Treatment
+Abbreviations: MBC: measurement-based care; MDD: major depressive disorder; SDM: shared decision making
+
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 8 of 26 
+Sidebar 1: Risk Assessment and Work-up
+· Functional status, medical history, past treatment history, and relevant family history
+· Consider administration of PHQ-9 
+· Evaluate for suicidal and homicidal ideation and history of suicide attempts, and consult the VA/DoD 
+Assessment and Management of Patients at Risk for Suicide CPG, as appropriate
+· Rule out depression secondary to other causes (e.g., hypothyroidism, vitamin B-12 deficiency, syphilis, pain, 
+chronic disease)
+· Incorporate MBC principles in the initial assessment
+Abbreviations: CPG: clinical practice guideline; DoD: Department of Defense; MBC: measurement-based care; MDD: major 
+depressive disorder; PHQ-9: Patient Health Questionnaire-9; VA: Department of Veterans Affairs
+Sidebar 2: DSM-5 Criteria
+Criterion A: Five or more of the following symptoms present during the same 2-week period; at least one of the 
+symptoms is either (1) depressed mood or (2) loss of interest/pleasure:
+· Depressed mood most of the day, nearly every day
+· Markedly diminished interest or pleasure in almost all activities most of the day, nearly every day
+· Significant weight loss when not dieting or weight gain
+· Insomnia or hypersomnia nearly every day
+· Psychomotor agitation or retardation nearly every day
+· Fatigue or loss of energy every day
+· Feelings of worthlessness or excessive inappropriate guilt
+· Diminished ability to think, concentrate, or indecisiveness, nearly every day
+· Recurrent thought of death, recurrent suicidal ideation without a specific plan, a suicide attempt or a specific 
+plan for committing suicide
+Criterion B: The symptoms cause significant distress or functional impairment
+Criterion C: The episode is not attributable to the physiological effects of a substance or another medical 
+condition
+Abbreviations: DSM-5: Diagnostic and Statistical Manual of Mental Disorders, 5th edition
+Sidebar 3: Factors to be Considered in Treatment Choice
+· Prior treatment response
+· Severity (e.g., PHQ-9)
+· Chronicity
+· Comorbidity (e.g., substance use, medical conditions, other psychiatric conditions)
+· Suicide risk
+· Psychosis
+· Catatonic or melancholic features
+· Functional status
+· Tolerability of prior treatments
+Abbreviations: MDD: major depressive disorder; PHQ-9: Patient Health Questionnaire-9
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 9 of 26 
+Sidebar 4: Considerations in Treatment of Uncomplicated MDD
+· Consider collaborative/integrated care in primary care for appropriate patients
+· For initial treatment, select pharmacotherapy or psychotherapy based on SDM 
+· If previous treatment was successful, consider restarting this approach
+· Based on patient preferences, consider the following as an adjunct to psychotherapy or pharmacotherapy 
+(self-help with exercise [e.g., yoga, tai chi, qi gong, resistance, aerobics], patient education, light therapy, and 
+bibliotherapy) or as an alternative if first-line treatments are not acceptable and/or available
+· Include patient characteristics (e.g., treatment of co-occurring conditions, cultural factors, social 
+determinants, patients who are pregnant, geriatric patients) in SDM 
+Abbreviations: MDD: major depressive disorder; SDM: shared decision making
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 10 of 26
+Module B: Advanced Care Management
+Abbreviations: MH: mental health
+
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 11 of 26
+Sidebar 5: Treatment Options for Patients Who Have Not Responded to Adequate Treatment Trialsa
+Consider the following treatment options:
+· Consider other pharmacotherapy options (e.g., MAOIs, TCAs) (see Recommendation 16)
+· ECT (see Recommendation 20)
+· rTMS (see Recommendation 17)
+· Ketamine/esketamine (see Recommendation 19)
+a  Patients who have demonstrated partial or no response to initial pharmacologic monotherapy (maximized) after a minimum 
+of four to six weeks of treatment
+Abbreviations: ECT: electroconvulsive therapy; MAOIs: monoamine oxidase inhibitors; rTMS: repetitive transcranial magnetic 
+stimulation; TCAs: tricyclic antidepressants
+Sidebar 6: Treatment Options for Switching or Augmenting 
+Consider the following treatment options:
+· Adding psychotherapy or an antidepressant 
+· Switching to a different treatment (e.g., switch between psychotherapy or pharmacotherapy, switch to a 
+different focus of psychotherapy or different antidepressant)
+· Augmenting with a different class of medication (e.g., adding an SGA) 
+Abbreviations: SGA: second-generation antipsychotic 
+Sidebar 7: Treatment Options During Remission
+Consider the following treatment options:
+· For patients treated with antidepressants, consider continuation at the therapeutic dose for at least six 
+months
+· For patients with a high risk of relapse, regardless of prior treatment received, consider offering a course of 
+CBT
+Abbreviations: CBT: cognitive behavioral therapy
+Scope of the CPG
+This CPG is based on published clinical evidence and related information available through January 31, 
+2021. It is intended to provide general guidance on best evidence-based practices (see Appendix A in the 
+full VA/DoD MDD CPG for additional information on the evidence review methodology). This CPG is not 
+intended to serve as a standard of care. 
+This CPG is intended for use by all healthcare providers caring for patients with MDD. This version of the 
+CPG was particularly tailored to address the needs of primary care providers (PCPs) and mental health 
+providers.
+The patient population of interest for this CPG is adults (≥18 years) who have a DSM or ICD-9 or ICD-10 
+diagnosis of MDD who are eligible for care in the VA or DoD healthcare delivery systems. It includes 
+mild, moderate, and severe MDD, as well as those with chronic major depression diagnosed per DSM-IV 
+criteria and those with persistent depressive disorder/chronic major depression per DSM-5 criteria. It 
+also includes adults with MDD who have either partially responded or not responded to treatment for 
+depression. This CPG does not address patients at risk for suicide or patients with post-stroke 
+depression or bipolar disorder I/II, as recommendations for managing these patient populations are 
+included in the VA/DoD CPG for the Assessment and Management of Patients at Risk for Suicide, 
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 12 of 26
+VA/DoD CPG for the Management of Stroke Rehabilitation, and the VA/DoD CPG for the Management of 
+Bipolar Disorder).a
+Highlighted Features of this Guideline
+The 2022 VA/DoD MDD CPG used a more rigorous application of the Grading of Recommendations 
+Assessment, Development, and Evaluation (GRADE) methodology, than previous iterations for rating 
+evidence. This resulted in the exclusion or downgrading of data that was used in previous versions of 
+this CPG. This impacted the strength of some recommendations (e.g., Strong for downgraded to Weak 
+for) despite a similar evidence base. For additional information on GRADE or CPG methodology, see 
+Appendix A in the full VA/DoD MDD CPG. In an important addition, this CPG includes consumer input 
+wher
+eas prior versions did not.
+The 2016 VA/DoD MDD CPG’s management section divided treatment between “treatment of 
+uncomplicated mild to moderate MDD” and “treatment of severe, chronic, or recurrent MDD 
+(complex).” This CPG refers to “treatment of uncomplicated MDD” and “treatment of MDD that is 
+severe or has partial or limited response to initial treatment” to better align with the research literature 
+and clinical practice. The latter section now includes recommendations previously listed across several 
+sections to improve clarity. As noted, the algorithm has been designed to better reflect this structure 
+as well.
+Moreover, numerous interventions that previously did not meet inclusion criteria now do so, or do so at 
+a higher level of recommendation. These include:
+· Short-term psychodynamic psychotherapy (STPP) (Recommendation 7)
+· Trazodone (Recommendation 11)
+· Repetitive transcranial magnetic stimulation (rTMS) (Recommendation 17)
+· Second-generation antipsychotics (SGAs) (Recommendation 16)
+· Ketamine or esketamine (Recommendation 19)
+The CPG also provides expanded recommendations on research needed to strengthen future guidelines.
+Methods
+The methodology used in developing this CPG follows the Guideline for Guidelines, an internal document 
+of the VA/DoD EBPWG updated in January 2019 that outlines procedures for de veloping and submitting 
+VA/DoD CPGs.(5) The Guideline for Guidelines is available at 
+http://www.healthquality.va.gov/policy/index.asp. This CPG also aligns with the National Academy of 
+Medicine’s (NAM) principles of trustworthy CPGs (e.g., explanation of evidence quality and strength, the 
+management of potential conflicts of interest [COI], interdisciplinary stakeholder involvement, use of 
+systematic review, and external review).(6) Appendix A in the full VA/DoD MDD CPG provides a detailed 
+description of the CPG development methodology.
+a The VA/DoD CPGs are available at: https://www.healthquality.va.gov/. 
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 13 of 26
+The Work Group used the GRADE approach to craft each recommendation and determine its strength. 
+Per GRADE approach, recommendations must be evidence-based and cannot be made based on expert 
+opinion alone. The GRADE approach uses the following four domains to inform the strength of each 
+recommendation: confidence in the quality of the evidence, balance of desirable and undesirable 
+outcomes, patient values and preferences, other considerations as appropriate (e.g., resource use, 
+equity) (see Determining Recommendation Strength and Direction in the full VA/DoD MDD CPG).(7)
+Using these four domains, the Work Group determined the relative strength of each recommendation 
+(Strong or Weak). The strength of a recommendation is defined as the extent to which one can be 
+confident that the desirable effects of an intervention outweigh its undesirable effects and is based on 
+the framework above, which incorporates the four domains.(7) A Strong recommendation generally 
+indicates High or Moderate confidence in the quality of the available evidence, a clear difference in 
+magnitude between the benefits and harms of an intervention, similar patient values and preferences, 
+and understood influence of other implications (e.g., resource use, feasibility). 
+In some instances, there is insufficient evidence on which to base a recommendation for or against a 
+particular therapy, preventive measure, or other intervention. For example, the systematic evidence 
+review may have found little or no relevant evidence, inconclusive evidence, or conflicting evidence for 
+the intervention. The manner in which this is expressed in the CPG may vary. In such instances, the 
+Work Group may include among its set of recommendations a statement of insufficient evidence for an 
+intervention that may be in common practice even though it is not supported by clinical evidence, 
+particularly if there may be other risks of continuing its use (e.g., high opportunity cost, misallocation of 
+resources). In other cases, the Work Group may decide to not include this type of statement about an 
+intervention. For example, the Work Group may remain silent where there is an absence of evidence for 
+a rarely used intervention. In other cases, an intervention may have a favorable balance of benefits and 
+harms but may be a standard of care for which no recent evidence has been generated.
+Using these elements, the Work Group determines the strength and direction of each recommendation 
+and formulates the recommendation with the general corresponding text (see Table 2). 
+Table 2. Strength and Direction of Recommendations and General Corresponding Text
+Recommendation Strength and Direction General Corresponding Text
+Strong for We recommend …
+Weak for We suggest …
+Neither for nor against There is insufficient evidence to recommend for or against …
+Weak against We suggest against …
+Strong against We recommend against …
+It is important to note that a recommendation’s strength (i.e., Strong versus Weak) is distinct from its 
+clinical importance (e.g., a Weak recommendation is evidence-based and still important to clinical care). 
+The strength of each recommendation is shown in the Recommendations section.
+The GRADE of each recommendation made in the 2022 CPG can be found in the section on 
+Recommendations. Additional information regarding the use of the GRADE system can be found in 
+Appendix A in the full VA/DoD MDD CPG.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 14 of 26
+Recommendation categories were used to tra ck how the previous CPG’s recommendations could be 
+reconciled. These categories and their corresponding definitions are similar to those used by the 
+National Institute for Health and Care Excellence (NICE, England).(8, 9) Table 3 lists these categories, 
+which are based on whether the evidence supporting a recommendation was systematically reviewed, 
+the degree to which the previous CPG’s recommendation was modified, and whether a previous CPG’s 
+recommendation is relevant in the updated CPG.
+Additional information regarding these categories and their definitions can be found in 
+Recommendation Categorization in the full VA/DoD MDD CPG. The 2022 CPG recommendation 
+categories can be found in Recommendations. Appendix D in the full VA/DoD MDD CPG outlines the 
+2016 VA/DoD MDD CPG’s recommendation categories.
+Table 3. Recommendation Categories and Definitionsa
+Evidence 
+Reviewed
+Recommendation 
+Category Definition
+Reviewedb
+New-added New recommendation 
+New-replaced Recommendation from previous CPG was carried forward and revised 
+Not changed Recommendation from previous CPG was carried forward but not changed 
+Amended Recommendation from previous CPG was carried forward with a nominal 
+change 
+Deleted Recommendation from previous CPG was deleted
+Not 
+reviewedc
+Not changed Recommendation from previous CPG was carried forward but not changed 
+Amended Recommendation from previous CPG was carried forward with a nominal 
+change
+Deleted Recommendation from previous CPG was deleted 
+a  Adapted from the NICE guideline manual (2012) (8) and Garcia et al. (2014) (9)
+b  The topic of this recommendation was covered in the evidence review carried out as part of the development of the current 
+CPG. 
+c  The topic of this recommendation was not covered in the evidence review carried out as part of the development of the 
+current CPG. 
+Abbreviation: CPG: clinical practice guideline
+Guideline Work Group
+Table 4. Guideline Work Group and Guideline Development Team
+Organization Names*
+Department of Veterans Affairs
+John McQuaid, PhD (Champion)
+David W. Oslin, MD (Champion)
+Andrew Buelt, DO
+Claire Collie, PhD
+Chris Crowe, PhD
+Matthew A. Fuller, PharmD, BCPP, FASHP
+Angela Giles, DBH, LCSW, BCD
+Suzanne Thorne-Odem, DNP, FNP-C
+Ilse Wiechers, MD, MPP, MHS
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 15 of 26
+Organization Names*
+Department of Defense
+LTC Vincent Capaldi, MD, MSc, FAPA, FACP (Champion)
+Fuad Issa, MD, FAPA (Champion)
+LTC Scott Williams, MD, FACP, DFAPA, FAASM (Champion)
+MAJ Rhanda Brockington, DNP, FNP-BC
+CAPT Anne Dobmeyer, PhD, ABPP
+Lt Col Nicole Garris, LCSW, DCSW
+COL (Ret.) Charles Hoge, MD
+Adam Edward Lang, PharmD, BCACP
+June Taheri, MD
+Office of Quality and Patient Safety
+Veterans Health Administration
+M. Eric Rodgers, PhD, FNP-BC
+James Sall, PhD, FNP-BC
+Rene Sutton, BS, HCA
+Clinical Quality Improvement Program
+Defense Health Agency
+Lisa D. Jones, BSN, RN, MHA, CPHQ
+Corinne K. B. Devlin, MSN, RN, FNP-BC
+Elaine P. Stuffel, MHA, BSN, RN
+The Lewin Group
+Clifford Goodman, PhD
+Erika Beam, MS
+Ben Agatston, JD, MPH
+Matthew Heron, BS
+Nicole Holmberg, BS
+ECRI
+Kris D’Anci, PhD
+Stacey Uhl, MS
+Benjamin Rouse, MHS
+Aaron Bloschichak, MPH
+Amber Moran, MA
+Joann Fontanarosa, PhD
+Megan Nunemaker, MSLS
+Sigma Health Consulting Frances Murphy, MD, MPH
+James Smirniotopoulos, MD
+Duty First Consulting
+Rachel Piccolino, BA
+Mary Kate Curley, BA
+Richa Ruwala, BS
+*Additional contributor contact information is available in Appendix E of the full CPG.
+Patient-centered Care
+Guideline recommendations are intended to consider patient needs and preferences. Guideline 
+recommendations represent a whole/holistic health approach to care that is patient-centered, culturally 
+appropriate, and available to people with limited literacy skills and physical, sensory, or learning 
+disabilities. VA/DoD CPGs encourage providers to use a patient-centered, whole/holistic health 
+approach (i.e., individualized treatment based on patient needs, characteristics, and preferences). This 
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 16 of 26
+approach aims to treat the particular condition while also optimizing the individual’s overall health and 
+well-being.
+Regardless of the care setting, all patients should have access to individualized evidence-based care as 
+well as supportive education, peer groups, and skill-building resources to support well-being goals. 
+Patients should be informed about all treatment options so they can make informed decisions. Patient-
+centered care can decrease patient anxiety, increase trust in clinicians, and improve treatment 
+adherence.(10, 11) A whole/holistic health approach (https://www.va.gov/wholehealth/) empowers and 
+equips individuals to meet their personal health and well-being goals. Good communication through 
+motivational interviewing and shared goal setting is essential and should be supported by evidence-
+based information tailored to each patient’s need. An empathetic and non-judgmental approach 
+facilitates discussions sensitive to sex, culture, ethnicity, and other differences.
+Shared Decision Making
+This CPG encourages providers to practice shared decision making, which is a process in which providers 
+and patients consider clinical evidence of benefits and risks as well as patient values and preferences to 
+make decisions regarding the patient’s treatment.(12) Shared decision making was emphasized in 
+Crossing the Quality Chasm, an Institute of Medicine (IOM) (now NAM) report, in 2001 (13) and is 
+inherent within the whole/holistic health approach. Providers must be adept at presenting information 
+to their patients regarding individual treatments, expected risks, expected outcomes, and levels and/or 
+settings of care, especially where there may be patient heterogeneity in risks and benefits. The VHA and 
+MHS have embraced shared decision making. Providers are encouraged to use shared decision making 
+to individualize treatment goals and plans based on patient capabilities, needs, and preferences. 
+Quick Guide to the Patient Health Questionnaire in Clinical Practice
+A. Purpose
+The PHQ facilitates the recognition and diagnosis of depressive disorders.(14) The PHQ-2 functions as a 
+screening tool for depression, whereas the PHQ-9 serves as an indicator of depression severity or 
+response to treatment for patients with a depressive disorder.(15) Although the instrument can be used 
+to align with diagnostic criteria, it should not be used in isolation to make a diagnosis without 
+considering other aspects of the assessment, including whether the symptoms are better accounted for 
+by another disorder (e.g., PTSD, hypothyroidism). 
+The PHQ-9 can also be used as a continuous measure of severity in the practice of MBC. Measurement-
+based care emphasizes the use of assessments to help personalize care and guide treatment decisions. 
+As a standard part of clinical care, it aids in identifying intervention targets, assessing progress over 
+time, and guiding treatment decisions. Measurement-based care also has a positive impact on the 
+clinical relationship between patient and provider by validating the patient’s experience, empowering 
+them as an active partner in their overall wellness, and prioritizing what matters most to the patient 
+regarding their care.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 17 of 26
+B. Scoring the PHQ-9 (16)
+a. PHQ-9 Scoring Instructions
+The response categories “not at all,” “several days,” “more than half the days,” and “nearly every day” 
+correspond to scores of 0, 1, 2, and 3, respectively. The index is the sum of the scores for the nine items 
+and ranges from 0 to 27. A blank assessment can be found in Table 5, while an example of this scored 
+assessment can be found in Table 7.
+Table 5. Nine Symptom Checklist (PHQ-9)
+Over the last 2 weeks, how often have you been 
+bothered by any of the following?
+Not at 
+all
+Several 
+days
+More than 
+half the days
+Nearly 
+every day
+a Little interest or pleasure in doing things? 0 1 2 3
+b Feeling down, depressed, or hopeless? 0 1 2 3
+c Trouble falling or staying asleep, or sleeping too 
+much? 0 1 2 3
+d Feeling tired or having little energy? 0 1 2 3
+e Poor appetite or overeating? 0 1 2 3
+f Feeling bad about yourself— or that you are a failure 
+or have let yourself or your family down? 0 1 2 3
+g Trouble concentrating on things, such as reading the 
+newspaper or watching television? 0 1 2 3
+h
+Moving or speaking so slowly that other people could 
+have noticed? Or the opposite— being so fidgety or 
+restless that you have been moving around a lot 
+more than usual?
+0 1 2 3
+i Thoughts that you would be better off dead or of 
+hurting yourself in some way? 0 1 2 3
+For office coding: Total Score =_____+ _____+ _____+ _____
+If you checked off any of these challenges, how difficult (not difficult at all, somewhat difficult, very 
+difficult, extremely difficult) have these issues made it for you to perform your work, manage your 
+domestic life, or negotiate social dynamics with other people?
+b. Using the PHQ-9 as a Measure of Severity
+This is calculated by assigning scores to the response categories for the question, “Over the last two 
+weeks, how often have you been bothered by any of the following?” Scores of 10, 15, and 20 represent 
+cut-points for mild, moderate, and severe MDD, respectively (see Table 6). A score of 10 or more has a 
+sensitivity of 88% and a specificity of 88% for MDD.(2) All clinically significant responses are found in the 
+column farthest to the right in the PHQ-9.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 18 of 26
+Table 6. Classification of MDD Symptoms Severity 
+Severity 
+Level
+PHQ-9 
+Total Score
+Number of Symptoms 
+According to DSM-5
+Functional 
+Impairment
+Mild 10 – 14 5 Mild
+Moderate 15 – 19 6 to 7 Moderate
+Severe >20 8 to 9 Severe
+Note that these cut scores related to classification of MDD. Another use of the PHQ-9 is as a marker of severity of depressive 
+symptoms. The cut scores as a marker of severity of symptoms is 0-5 none, 6-9 mild, 10-15 moderate, 16 and above severe. This 
+addresses two different uses of the instrument.
+Abbreviations: DSM-5: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition
+c. Using the PHQ-9 as a Presumptive Diagnostic Tool
+Since the questionnaire relies on patient self-reporting, the clinician must verify the definitive diagnosis, 
+whereby considering how well the patient understood the questions in the questionnaire as well as 
+other relevant information from the patient, support network, or other sources. While the PHQ-9 can be 
+used to supplement the clinical exam, the use of the PHQ-9 as a diagnostic tool is discouraged.
+d. Interpreting the PHQ-9 to Make a Provisional Diagnosis
+Any symptom endorsed as being present at least “more than half the days” counts toward a DSM-5 
+diagnosis. The only exception is for suicidal ideation, which counts toward a DSM-5 diagnosis if endorsed 
+as being present “several days” or more.(17) 
+PHQ-9 Consistent with DSM-5
+Major Depressive Episode if #a or b and five or more of #a-i are at least “more than half the days” (count #i if 
+present at all) in the PHQ-9 nine symptom checklist (Table 5 and Table 7).
+Note: The diagnoses of MDD requires ruling out a history of a manic episode (Bipolar Disorder) and a physical disorder, 
+medication or other drug as the biological cause of the depressive symptoms. In the context of bereavement or other 
+significant loss, symptoms consistent with a major depression can occur, and the diagnosis of MDD is considered if there is 
+indication the symptoms are distinguished from normal response to loss given the individual’s history, cultural norms, and 
+the context of the loss.
+C. Using the PHQ-9 in Measurement-Based Care
+Enhancing the clinical partnership leads to improved collaboration between patient and provider 
+regarding next steps in care as MBC helps create a shared language to discuss treatment. The tenets of 
+MBC include collect, share, and act.
+a. Collect
+Routine collection of the PHQ-9 is relevant to treatment as it aids in the management of depression and 
+engages the patient in their care from the very start. When discussing the use of PHQ-9 with patients, it 
+is important to communicate the rationale of MBC, the process of regular administration, as well as the 
+information that will be gained towards the identification of treatment goals and targets. After initiation 
+of therapy or a change in treatment, providers should monitor patients at least monthly to track 
+response/progress. At a minimum, assessments should include the PHQ-9, adherence to the medication 
+and psychotherapy treatment plan, and emergence of adverse effects.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 19 of 26
+b. Share
+Sharing results of PHQ-9 with a patient facilitates a discussion regarding their subjective experiences 
+with depression and any potential discrepancies that may impact the achievement of their healthcare 
+goals. This also provides an opportunity to educate on depression symptoms, clarify any 
+misunderstandings regarding the questions being asked in PHQ-9, and discuss progress towards 
+treatment goals. Using graphs is an important way to share information with patients regarding how 
+their symptoms are progressing and how they are doing over time.
+Documentation of the results into the medical record is a vital step in the sharing process. Not only does 
+it allow for tracking of scores over time for the episode of care, but it also benefits other providers of the 
+care team who are working with the patient, again providing a universal language of symptom changes.
+c. Act
+Data collected from the PHQ-9 is used to inform the next steps in care in collaboration with the patient’s 
+input regarding their goals for wellness. In reviewing the scores, providers can offer personalized 
+treatment intervention options and engage patients in shared decision making to determine the next 
+steps in care. See Recommendations for details on the treatment for uncomplicated mild to moderate 
+MDD (PHQ-9 score of 10 – 19) and the treatment of severe, chronic, or recurrent MDD (PHQ-9 score 
+>20) at initial assessment as well as guidance regarding the use of PHQ-9 scores in determining partial 
+response, remission, and recovery.
+D. Example of Using the PHQ-9 in Clinical Practice
+The following is an example of how MDD can be assessed in a patient using the PHQ-9 for a presumptive 
+diagnosis to calculate depression severity and symptom monitoring over time.
+Patient: A 43-year-old woman who looks sad and complains of fatigue for the past month
+Table 7. PHQ-9 Screening Example
+Over the last 2 weeks, how often have you been 
+bothered by any of the following?
+Not at 
+all 
+(0)
+Several 
+days  
+(1)
+More than 
+half the 
+days (2)
+Nearly 
+every day 
+(3)
+a Little interest or pleasure in doing things? X
+b Feeling down, depressed, or hopeless? X
+c Trouble falling or staying asleep, or sleeping too much? X
+d Feeling tired or having little energy? X
+e Poor appetite or overeating? X
+f Feeling bad about yourself— or that you are a failure or 
+have let yourself or your family down? X
+g Trouble concentrating on things, such as reading the 
+newspaper or watching television? X
+h
+Moving or speaking so slowly that other people could 
+have noticed? Or the opposite— being so fidgety or 
+restless that you have been moving around a lot more 
+than usual?
+X
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 20 of 26
+Over the last 2 weeks, how often have you been 
+bothered by any of the following?
+Not at 
+all 
+(0)
+Several 
+days  
+(1)
+More than 
+half the 
+days (2)
+Nearly 
+every day 
+(3)
+i Thoughts that you would be better off dead or of 
+hurting yourself in some way? X
+For office coding: Major depressive episode if # a or b and five or more of # a-i are at least “More than half the 
+days” (count # i if present at all). Other depressive syndrome if # a or b and two, three, or four of # a-i are at 
+least “More than half the days” (count # i if present at all).
+Interpretation: The severity score = 16 and represents moderately severe depression likely requiring 
+treatment. Utilizing the answers as a diagnostic tool, the criteria for a presumed Major Depressive 
+Episode 
+are met since she checked #a “nearly every day” and five of items #a to i were checked “more 
+than half the days” or “nearly every day,” as indicated in Table I-3. Note that #i, suicidal ideation, is 
+counted whenever indicated.
+In this case, the diagnosis of MDD was made since questioning by the physician indicated no history of a 
+manic episode; no evidence that a physical disorder, medication, or other drug caused the depression; 
+and no indication that the depressive symptoms were normal bereavement. Questioning about the 
+suicidal ideation indicated no significant suicidal potential.
+As part of the treatment plan, the provider would explain the rationale of MBC and repeat the PHQ-9, 
+regularly. At each collection point, the provider would share with the patient their progress over time, as 
+an educational tool when reviewing with the patient. In collaboration with the patient, the provider 
+would engage in shared decision making to identify target goals, discuss treatment interventions (e.g., 
+change in medication, change in psychotherapy), and assess next steps in care, including developing a 
+maintenance plan if scores indicate clinically significant recovery. Special attention should be given to 
+item nine at each collection point to determine the need for further risk assessment and/or safety 
+planning. 
+E. Additional Clinical Considerations
+After completing a provisional diagnosis with the PHQ-9, additional clinical considerations exist that may 
+shape management and treatment options.(18)
+• Has a psychosocial stressor(s) triggered current symptoms?
+• What is the duration of the current disturbance, and has the patient received any treatment for 
+it?
+• To what extent are the symptoms of the patient impairing their capacity to complete daily work 
+and life duties and responsibilities?
+• Is there a history of similar episodes, and were they treated?
+• Is there a family history of similar conditions?(19)
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 21 of 26
+Definitions
+A. Major Depressive Disorder 
+A diagnosis of MDD generally occurs when a persistent low mood or lack of interest in activity plus 
+impairment in functional areas of life persists. The number and combination of symptoms needed to 
+make a diagnosis is operationally defined by ICD-10 (20) a nd DSM -5,(21) though some individuals 
+demonstrate an atypical presentation with reactive mood, increased appetite, weight gain, and 
+excessive sleepiness.(22)
+Diagnosis of MDD results from the presence of depressed mood or loss of interest or pleasure, along with 
+at least four additional MDD diagnosis criteria symptoms for at least two weeks (see Table 8).
+Depressive symptoms include depressed mood, loss of interest in most activities (anhedonia), significant 
+change in weight or appetite, insomnia or hypersomnia, decreased concentration, decreased energy, 
+inappropriate guilt or feelings of worthlessness, psychomotor agitation or retardation, and suicidal 
+ideation.
+Table 8. Diagnosis of MDD (23)
+Symptom
+MDD diagnosis is based on the following list of symptoms and requires the presence of 
+symptom 1, 2, or both; and at least five of nine symptoms overall; these symptoms must 
+persist for at least two weeks
+1 Depressed mood nearly every day for most of the day, based on self-report or observation of others
+2 Marked reduction or loss of interest or pleasure in every, or nearly all, activities for most of the day, 
+principally on a daily basis
+3 Significant non-dieting weight loss or weight gain (>5% change in body weight)
+4 Insomnia or hypersomnia nearly every day
+5 Psychomotor agitation or retardation (should be observable by others)
+6 Fatigue/loss of energy nearly every day
+7 Feelings of worthlessness or excessive/inappropriate guilt (possibly delusional) nearly every day
+8 Diminished cognitive function (reduced ability to think or concentrate, or indecisiveness) nearly 
+every day
+9 Recurrent thoughts of death and/or suicide, suicide planning, or a suicide attempt
+Abbreviations: MDD: major depressive disorder
+In addition, individuals demonstrating more severe or atypical presentations, including marked physical 
+slowness (or marked agitation) and a range of somatic symptoms, are often referred to as melancholic 
+depressions or depression with melancholia.
+People with severe depressive episodes may also develop psychotic symptoms (hallucinations and/or 
+delusions), most commonly thematically consistent with negative, self-blaming cognitions and low mood 
+typically encountered in major depression. Conversely, others may develop psychotic symptoms 
+unrelated to the mood of the patient. In the latter case, the mood-incongruent psychotic symptoms 
+prove difficult to distinguish from those that occur in other psychoses such as schizophrenia.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 22 of 26
+Severe Major Depressive Disorder Symptoms
+· Active suicidal ideation with either intent or plan, or suicide attempt
+· Active homicidal ideation
+· Psychotic symptoms
+· Severe anorexic symptoms (including loss of weight that poses health risk)
+· Inability to maintain ADLs (e.g., grooming, eating, catatonia)
+Abbreviations: ADLs: activities of daily living
+Table 6 describes the classification of MDD based on the PHQ-9 symptom scores. The classification 
+highlights the different symptoms that depressed individuals experience, depending on the 
+characteristics of the depression experienced, the personal and social circumstances, as well as the 
+responses required from services. Though the DSM-IV and Diagnostic and Statistical Manual of Mental 
+Disorders, 4th Edition, Text Revision (DSM-IV-TR) criteria validate the PHQ-9, no changes exist in the 
+diagnostic criteria for MDD from DSM-IV to DSM-5. Therefo re, the PHQ-9 remains a valid screening tool.
+The general categories of severity prove applicable as a basis for initial classification while benefiting 
+from further characterization by any of the modifiers. This includes the existence of co-occurring mental 
+health disorders and the duration of symptoms despite treatment. For most patients, an improvement 
+of symptoms follows an untreated first episode of MDD. Although some patients return to pre-episode 
+mood and function levels, many continue to experience residual subsyndromal symptoms. In a minority 
+of patients, an MDD episode persists for over two years and is defined as chronic MDD. Treatment-
+resistant depression emerges after at least two adequate treatment trials and lack of full response to 
+each.(17)
+The nature and course of depression are significantly affected by the psychological, social, and physical 
+characteristics of the patient and their circumstances. These factors significantly impact both the initial 
+choice of treatment and the probability of a patient benefiting from said intervention.
+a.  Onset Response to Treatment
+· Response to treatment: PHQ score improvement of ≥50% from baseline
+b.  Remission
+· PHQ score of ≤4, maintained for at least one month
+c. Recovery
+· PHQ score of ≤4, maintained for at least six months
+d.  Partial Response
+· <50% improvement in symptoms
+e.  Recurrence
+· Recurrence stems from the appearance of another new episode of MDD after remission of a 
+previous episode occurs. The literature often defines a complex case as three or more major 
+depressive episodes.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 23 of 26
+B. Treatments
+Acceptance and commitment therapy (ACT) is a psychotherapy intervention derived from relational 
+frame theory that emphasizes accepting emotional distress and engagement in goal-directed behaviors 
+based on individual values. A key feature of these interventions pivots on the acceptance rather than 
+avoidance of emotional pain. The acceptance conceivably reduces affective symptom severity. To 
+facilitate effective behavior change, ACT emphasizes the identification of personal values and learning to 
+act based on those values, despite inevitable distress, as opposed to focusing on behavior pain and 
+adversity avoidance.
+Behavior therapy (BT) for major depression refers to a class of psychotherapy interventions that treat 
+MDD by teaching patients to increase rewarding activities. Patients learn to track their activities and 
+identify the affective and behavioral consequences of those activities. Patients then learn techniques to 
+schedule activities to improve mood. Behavior therapy emphasizes training patients to monitor their 
+symptoms and behaviors to identify the relationships between them. Primary therapeutic techniques of 
+BT include collaborative empiricism (the therapist and patient working together to increase behaviors 
+and objectively assess the benefit of engaging in them) and functional analysis of obstacles to activities. 
+In addition, treatment incorporates structured practice outside of the session, including scheduled 
+activities, mood tracking, and interpersonal skills practice. 
+Behavioral activation (BA) is a particular version of BT that targets the link between avoidant behavior 
+and depression and expands the treatment component of BT. 
+Cognitive behavioral therapies (CBT) are interventions that treat MDD by teaching patients to modify 
+both thinking and behavior. Patients learn to track thinking and activities while identifying the affective 
+and behavioral consequences of those thoughts and activities. Patients then learn techniques to 
+examine, and when indicated, modify thinking that contributes to depression and identify, schedule, and 
+engage in rewarding activities to improve mood. Primary therapeutic techniques of CBT include 
+education of the patient about the treatment model, collaboration between the patient and therapist to 
+choose goals, identifying unhelpful thoughts, developing experiments to test the accuracy of such 
+thoughts, and the use of guided discovery (facilitating the ability of the patient to identify alternative 
+beliefs through the use of questions designed to explore current thought processes that exacerbate 
+depression). In addition, treatment incorporates structured practice outside of the session, including 
+scheduled activities, mood tracking, thought recording, challenging, and interpersonal skills practice. 
+Cognitive behavioral therapy can also be administered via computer-based programs designated as 
+computer-based cognitive behavioral therapy (CCBT).
+Interpersonal psychotherapy (IPT) is derived from attachment theory and treats MDD by improving 
+interpersonal functioning and exploring relationship-based difficulties. I nterpersonal psychotherapy 
+addresses the connection between patients’ feelings and current difficulties in relatio nships with people 
+by targeting four primary areas: (1) interpersonal loss, (2) r ole conflict, (3) r ole change, and ( 4) 
+interpersonal skills. 
+Problem-solving therapy (PST) is defined as a discrete, time-limited, structured psychological 
+intervention, focusing on learning to cope with specific problem areas. The therapist and patient work 
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 24 of 26
+collaboratively to identify and prioritize key problem areas, break problems down into specific, 
+manageable tasks, problem solve, and develop appropriate coping behaviors for challenges. The 
+intervention operates as a short-term approach. The mode of action is hypothesized as skills acquisition. 
+The intervention has been delivered effectively in settings by general practitioners or nurses.
+Mindfulness-based cognitive therapy (MBCT) int egrates traditional CBT interventions with mindfulness-
+based skills, including mindfulness meditation, imagery, experiential exercises, and other techniques 
+that aid patients in experiencing effect without necessarily attempting to change it. Regarding cognition, 
+compared to cognitive therapy, MBCT emphasizes individuals learning to bec ome more detached and 
+able to observe thoughts as objects, with less focus on modifying or eliminating dysfunctional thought. 
+Non-directive supportive psychotherapy (NDSP) refers to a broad range of treatments that tend not to 
+be structured or manualized and emphasize listening skills and the development of a strong therapeutic 
+alliance as the primary strategies for symptom management. 
+Short-term psychodynamic psychotherapy (STPP) is derived from psychoanalysis and longer-term 
+psychodynamic psychotherapy. Short-term psychodynamic psychotherapy refers to psychodynamic 
+psychotherapy of approximately 10 to 20 weeks duration. The approach focuses on the patient gaining 
+insight into unconscious conflicts, as the challenges manifest in the life and relationships of the patient. 
+Examined relationships include the patient’s relationship with the therapist (i.e., transference). This 
+therapy assesses the conflicts that originate from the past, usually within childhood relationships to 
+parental figures. Patients gain insight into and work through such conflicts through exploration of 
+feelings along with interpretations offered by the therapist. The development of insight is theorized to 
+be a core requirement for behavior change and symptom improvement. Of note, while some label IPT as 
+an STPP, others argue the approach serves as a distinct model, as the technique features a distinct body 
+of literature (see IPT above).
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 25 of 26
+References
+1. U.S. Department of Veterans Affairs/Department of Defense Health Executive Committee (HEC). Evidence 
+Based Practice Work Group Charter  [updated January 9, 2017]. Available from: 
+www.healthquality.va.gov/documents/EvidenceBasedPracticeWGCharter123020161.pdf.
+2. Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern 
+Med. 2001;16(9):606-13. Epub 2001/09/15. doi: 10.1046/j.1525-1497.2001.016009606.x. PubMed PMID: 
+11556941; PubMed Central PMCID: PMCPMC1495268.
+3. Hasin DS, Sarvet AL, Meyers JL, Saha TD, Ruan WJ, Stohl M, et al. Epidemiology of adult DSM-5 major 
+depressive disorder and its specifiers in the United States. JAMA psychiatry. 2018;75(4):336-46. Epub 
+2018/02/17. doi: 10.1001/jamapsychiatry.2017.4602. PubMed PMID: 29450462; PubMed Central 
+PMCID: PMCPMC5875313.
+4. Society for Medical Decision Making Committee on Standardization of Clinical Algorithms. Proposal for 
+clinical algorithm standards. Medical decision making : an international journal of the Society for Medical 
+Decision Making. 1992;12(2):149-54. Epub 1992/04/01. PubMed PMID: 1573982.
+5. U.S. Department of Veteran Affairs, Department of Defense. Guideline for Guidelines: Veterans Health 
+Administration, Office of Quality & Performance, Evidence Review Subgroup;  [updated January 29, 2019]. 
+Available from: http://www.healthquality.va.gov/policy/index.asp.
+6. Ransohoff DF, Pignone M, Sox HC. How to decide whether a clinical practice guideline is trustworthy. JAMA. 
+2013;309(2):139-40. Epub 2013/01/10. doi: 10.1001/jama.2012.156703. PubMed PMID: 23299601.
+7. Andrews JC, Schunemann HJ, Oxman AD, Pottie K, Meerpohl JJ, Coello PA, et al. GRADE guidelines: 15. 
+Going from evidence to recommendation-determinants of a recommendation's direction and strength. 
+Journal of clinical epidemiology. 2013;66(7):726-35. Epub 2013/04/11. doi: 10.1016/j.jclinepi.2013.02.003. 
+PubMed PMID: 23570745.
+8. National Institute for Health and Care Excellence. The guidelines manual. London: National Institute for 
+Health and Care Excellence, 2012.
+9. Martinez Garcia L, McFarlane E, Barnes S, Sanabria AJ, Alonso-Coello P, Alderson P. Updated 
+recommendations: an assessment of NICE clinical guidelines. Implementation science : IS. 2014;9:72. Epub 
+2014/06/13. doi: 10.1186/1748-5908-9-72. PubMed PMID: 24919856; PubMed Central 
+PMCID: PMCPmc4067507.
+10. Robinson JH, Callister LC, Berry JA, Dearing KA. Patient-centered care and adherence: definitions and 
+applications to improve outcomes. Journal of the American Academy of Nurse Practitioners. 
+2008;20(12):600-7. Epub 2009/01/06. doi: 10.1111/j.1745-7599.2008.00360.x. PubMed PMID: 19120591.
+11. Stewart M, Brown JB, Donner A, McWhinney IR, Oates J, Weston WW, et al. The impact of patient-centered 
+care on outcomes. J Fam Pract. 2000;49(9):796-804. Epub 2000/10/14. PubMed PMID: 11032203.
+12. National Learning Consortium. Shared Decision Making 
+https://www.healthit.gov/sites/default/files/nlc_shared_decision_making_fact_sheet.pdf2013.
+13. Institute of Medicine. Crossing the Quality Chasm: A New Health System for the 21st Century. Washington 
+DC: National Academies Press, 2001.
+14. Costantini L, Pasquarella C, Odone A, Colucci ME, Costanza A, Serafini G, et al. Screening for depression in 
+primary care with Patient Health Questionnaire-9 (PHQ-9): A systematic review. J Affect Disord. 
+2021;279:473-83. Epub 2020/10/31. doi: 10.1016/j.jad.2020.09.131. PubMed PMID: 33126078.
+15. Levis B, Sun Y, He C, Wu Y, Krishnan A, Bhandari PM, et al. Accuracy of the PHQ-2 alone and in combination 
+with the PHQ-9 for screening to detect major depression: systematic review and meta-analysis. Jama. 
+2020;323(22):2290-300. Epub 2020/06/10. doi: 10.1001/jama.2020.6504. PubMed PMID: 32515813; 
+PubMed Central PMCID: PMCPMC7284301.
+
+VA/DoD Clinical Practice Guideline for the Management of Major Depressive Disorder
+February 2022 Page 26 of 26
+16. Shin C, Lee SH, Han KM, Yoon HK, Han C. Comparison of the usefulness of the PHQ-8 and PHQ-9 for 
+screening for major depressive disorder: analysis of psychiatric outpatient data. Psychiatry investigation. 
+2019;16(4):300-5. Epub 2019/05/03. doi: 10.30773/pi.2019.02.01. PubMed PMID: 31042692; PubMed 
+Central PMCID: PMCPMC6504773.
+17. Rush AJ, Fava M, Wisniewski SR, Lavori PW, Trivedi MH, Sackeim HA, et al. Sequenced treatment 
+alternatives to relieve depression (STAR*D): rationale and design. Control Clin Trials. 2004;25(1):119-42. 
+Epub 2004/04/06. PubMed PMID: 15061154.
+18. Carroll HA, Hook K, Perez OFR, Denckla C, Vince CC, Ghebrehiwet S, et al. Establishing reliability and validity 
+for mental health screening instruments in resource-constrained settings: Systematic review of the PHQ-9 
+and key recommendations. Psychiatry Res. 2020;291:113236. Epub 2020/07/01. doi: 
+10.1016/j.psychres.2020.113236. PubMed PMID: 32593853; PubMed Central PMCID: PMCPMC7484202.
+19. Phelps J, Bale J, Squires K, 3rd, Pipitone O. Bipolarity in a collaborative care model variation: detection, 
+prevalence, and outcomes. Psychiatric services (Washington, DC). 2020;71(11):1098-103. Epub 2020/09/24. 
+doi: 10.1176/appi.ps.202000024. PubMed PMID: 32966172.
+20. ICD-10, International Statistical Classification of Diseases and Related Health Problems(2010).
+21. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders (DSM). 5th ed. 
+Washington, DC: American Psychiatric Association (APA); 2013.
+22. Quitkin FM, Harrison W, Stewart JW, McGrath PJ, Tricamo E, Ocepek-Welikson K, et al. Response to 
+phenelzine and imipramine in placebo nonresponders with atypical depression. A new application of the 
+crossover design. Archives of general psychiatry. 1991;48(4):319-23. Epub 1991/04/01. PubMed 
+PMID: 2009033.
+23. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders (DSM), 5th ed. 
+Washington, DC: American Psychiatric Association; 2013.
+
+
+
+Access to the full guideline and additional resources are available 
+at the following link: 
+https://www.healthquality.va.gov/guidelines/MH/mdd/ 

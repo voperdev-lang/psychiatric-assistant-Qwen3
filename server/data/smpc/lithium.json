@@ -1,0 +1,59 @@
+{
+ "drug": "lithium",
+ "class": "mood_stabilizer",
+ "indications": [
+  "bipolar I/II maintenance (first-line, strongest anti-suicide evidence)",
+  "acute mania (adjunct/add-on)",
+  "augmentation in treatment-resistant depression"
+ ],
+ "dosing": {
+  "adult": "400-800 mg/day (carbonate) depending on indication; start low (200-400 mg/day in older adults or when minimizing ADRs is a priority), titrate every 3-7 days based on serum level and response",
+  "source": [
+   "CANMAT2018",
+   "NICE_CG185",
+   "Maudsley13"
+  ]
+ },
+ "monitoring": {
+  "after_initiation": {
+   "lithium_level": "1 week after starting/any dose change, then weekly until stable",
+   "source": [
+    "NICE_CG185",
+    "Maudsley13"
+   ]
+  },
+  "baseline_before_start": [
+   "weight/BMI",
+   "renal function (eGFR, creatinine, urea)",
+   "TSH",
+   "serum calcium",
+   "ECG (if CV risk factors)",
+   "pregnancy test in women of childbearing potential"
+  ],
+  "schedule_6_months": {
+   "items": [
+    "lithium level (12 h after last dose)",
+    "renal function (eGFR/creatinine)",
+    "TSH",
+    "serum calcium"
+   ],
+   "interval": "every 6 months (3 months if risk factors: age >65, renal disease, interacting drugs, unstable thyroid)",
+   "source": [
+    "NICE_CG185",
+    "Maudsley13"
+   ]
+  },
+  "schedule_annual": {
+   "items": [
+    "weight/BMI"
+   ],
+   "interval": "annual",
+   "source": [
+    "NICE_CG185"
+   ]
+  },
+  "summary": "Level+renal+TSH+Ca: weekly until stable -> then every 3-6 months (6 months routine, 3 months high risk). NICE: level/renal/TSH/Ca at 6 months, then 6-monthly; eGFR must also be checked annually minimum"
+ },
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

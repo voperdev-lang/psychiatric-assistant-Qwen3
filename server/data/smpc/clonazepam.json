@@ -1,0 +1,23 @@
+{
+ "drug": "clonazepam",
+ "class": "benzodiazepine",
+ "indications": [
+  "short-term adjunct in acute mania",
+  "panic disorder",
+  "short-term anxiety",
+  "akathisia adjunct"
+ ],
+ "dosing": {
+  "anxiety/panic": "0.25-0.5 mg twice daily, titrate up to 1-2 mg/day (max 4 mg/day)",
+  "mania_adjuvant": "0.5-2 mg/day adjunctively",
+  "elderly": "start 0.25 mg/day",
+  "source": [
+   "Maudsley13",
+   "CANMAT2018",
+   "BAP_anxiety2014"
+  ]
+ },
+ "withdrawal": "gradual dose reduction 10-25% every 1-2 weeks; if withdrawal severe switch to equivalent diazepam and taper",
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}

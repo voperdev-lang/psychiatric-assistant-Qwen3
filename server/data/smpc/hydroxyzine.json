@@ -1,0 +1,25 @@
+{
+ "drug": "hydroxyzine",
+ "class": "sedating_antihistamine_H1_antagonist",
+ "indications": [
+  "short-term management of anxiety/anxiety with insomnia",
+  "pruritus/urticaria",
+  "premedication for sedation"
+ ],
+ "dosing": {
+  "anxiety_adults": "50-100 mg up to four times daily (50-200 mg/day total; common 50 mg at night or 25-50 mg up to tds/qds for short-term anxiety)",
+  "elderly": "25 mg at night, lower total daily dose",
+  "source": [
+   "Maudsley13",
+   "SPC_hydroxyzine"
+  ]
+ },
+ "adverse_effects": [
+  "sedation/next-day drowsiness",
+  "anticholinergic effects (dry mouth, constipation, urinary retention)",
+  "QT prolongation risk at high doses - avoid in prolonged QT/electrolyte disturbance/cardiac disease"
+ ],
+ "cautions": "avoid in elderly with dementia/cognitive impairment (anticholinergic burden); avoid combining with other QT-prolonging drugs",
+ "source_file": "03_mood_stabilizers.json",
+ "disclaimer": "Собрано из knowledge-корпуса psychiatry_qa20k; перед клиническим применением сверить с официальной инструкцией (SmPC)."
+}
